@@ -1,4 +1,4 @@
-package movies_app.src;
+package movies_app;
 import java.io.*;
 import java.util.ArrayList;
 import java.util.List;
@@ -86,7 +86,7 @@ public class List_manager {
         savelists();
 
     }
-    public List<Movie> getTowatchlist(){
+    public List<Movie> getTowatchList(){
         return Towatchlist;
     }
     public List<Movie> getWatchedList(){

@@ -1,4 +1,4 @@
-package movies_app.src;
+package movies_app;
 
 public class Movie {
     private String title;
